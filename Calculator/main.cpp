@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "ExpressionCalculator.h"
 using namespace std;
 
 int main()
@@ -7,7 +8,7 @@ int main()
 	cout << "======================\n"
 		<< " Command-Line Calculator\n"
 		<< "======================\n\n";
-	string expression;
+	char* expression = new char[1000];
 	string equation;
 	int start, end;
 	int choice;
@@ -20,16 +21,24 @@ int main()
 		cin >> choice;
 		switch (choice)
 		{
-		case 1:
+
+		case 1: {
 			cout << "Enter an expression" << endl;
-			getline(cin, expression);
+			cin.ignore();
+			cin.getline(expression, 1000, '\n');
+			ExpressionCalculator eCalculator(expression);
+			int result = eCalculator.expression();
+			cout << "Your result is: " << result << endl;
 			// 
 			break;
+		}
 		case 2:
+		{
 			cout << "Enter a range of numbers." << endl;
 			cin >> start >> end;
 			// 
 			break;
+		}
 		case 3:
 			cout << "Enter an equation." << endl;
 			getline(cin, equation);
