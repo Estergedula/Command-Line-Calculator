@@ -31,16 +31,18 @@ int main()
 			ExpressionCalculator eCalculator(expression);
 			int result = eCalculator.expression();
 			cout << "Your result is: " << result << endl;
-			// 
 			break;
 		}
 		case 2:
 		{
 			cout << "Enter a range of numbers." << endl;
 			cin >> start >> end;
-			PrimesCalculator::findPrimes(start, end);
-			vector
-			// 
+			vector<int> primes = PrimesCalculator::findPrimes(start, end);
+			cout << "Prime numbers in the range [" << start << ", " << end << "]: ";
+			for (int prime : primes) {
+				cout << prime << " ";
+			}
+			cout << endl;
 			break;
 		}
 		case 3:

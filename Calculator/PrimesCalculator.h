@@ -8,6 +8,6 @@ public:
 	static vector<int> findPrimes(int, int);
 private:
 
-	bool isPrime(int);
+	static bool isPrime(int);
 };
 
