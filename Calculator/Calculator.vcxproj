@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ExpressionCalculator.h" />
+    <ClInclude Include="PrimesCalculator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExpressionCalculator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PrimesCalculator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

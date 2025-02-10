@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "ExpressionCalculator.h"
+#include "PrimesCalculator.h"
 using namespace std;
 
 int main()
@@ -36,6 +38,8 @@ int main()
 		{
 			cout << "Enter a range of numbers." << endl;
 			cin >> start >> end;
+			PrimesCalculator::findPrimes(start, end);
+			vector
 			// 
 			break;
 		}
