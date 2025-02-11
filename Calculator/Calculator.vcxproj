@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ExpressionCalculator.h" />
+    <ClInclude Include="FirstOrSecondOrderEquationsCalculator.h" />
     <ClInclude Include="PrimesCalculator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExpressionCalculator.cpp" />
+    <ClCompile Include="FirstOrSecondOrderEquationCalculator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PrimesCalculator.cpp" />
   </ItemGroup>

@@ -21,6 +21,9 @@
     <ClInclude Include="PrimesCalculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FirstOrSecondOrderEquationsCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExpressionCalculator.cpp">
@@ -30,6 +33,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PrimesCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstOrSecondOrderEquationCalculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -24,13 +24,5 @@ private:
 
     int term();
 
-  /*  int _tmain(int argc, _tchar* argv[])
-    {
-
-        int result = expression();
-
-        return 0;
-    }*/
-
 };
 
